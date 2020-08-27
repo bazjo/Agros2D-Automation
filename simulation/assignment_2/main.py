@@ -4,12 +4,12 @@ from simulation import setupSimulation
 
 f = open("result.csv", "w")
 
-def simulateCurrent(current):
+def simulateMagnet(magnet_height):
     problem = a2d.problem(clear = True)
     problem.coordinate_type = "planar"
     problem.mesh_type = "triangle"
 
-    sim = setupSimulation(current)
+    sim = setupSimulation(0, magnet_height)
 
     a2d.view.zoom_best_fit()
     problem.solve()
@@ -25,11 +25,11 @@ def simulateCurrent(current):
     force = volume["Fty"] * 2 * 0.03 # force on i-core
     flux = local_values["Br"] # flux in the  airgap
 
-    f.write(str(current) + "," + str(force) + "," + str(flux)+ "\n")
+    f.write(str(magnet_height) + "," + str(force) + "," + str(flux)+ "\n")
 
-f.write("Current [A],Force [N],Flux Density [T]\n")
+f.write("Magnet Thickness [m],Force [N],Flux Density [T]\n")
 
-for current in range(1, 65):
-    simulateCurrent(current)
+for magnet_height in range(1, 12):
+    simulateMagnet(magnet_height * 0.001)
 
 f.close()
