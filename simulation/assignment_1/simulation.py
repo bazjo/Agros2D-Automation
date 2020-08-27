@@ -58,7 +58,6 @@ def setupGeometry():
     geometry.add_edge(x_core_outer, 0, x_core_outer, y_u_core_outer, angle = 0)
     geometry.add_edge(x_core_outer, y_u_core_outer, x_core_coil, y_u_core_outer, angle = 0)
     geometry.add_edge(x_core_coil, y_u_core_outer, 0, y_u_core_outer, angle = 0)
-    #geometry.add_edge(0, y_u_core_outer, 0, y_u_core_inner, angle = 0)
     geometry.add_edge(0, y_u_core_inner, x_core_coil, y_u_core_inner, angle = 0)
     geometry.add_edge(x_core_coil, y_u_core_inner, x_core_inner, y_u_core_inner, angle = 0)
     geometry.add_edge(x_core_inner, y_u_core_inner, x_core_inner, 0, angle = 0)

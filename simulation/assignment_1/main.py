@@ -14,11 +14,16 @@ def simulateCurrent(current):
     a2d.view.zoom_best_fit()
     problem.solve()
 
-    volume = sim.volume_integrals([2]) # Volumenintegral vom Gebiet 2 -> I-Joch
-    flux_density = sim.local_values(0.07, -0.0005)
+    # geometry varaibles for result analysis
+    i_core_area = 2
+    x_airgap = 0.07
+    y_airgap = -0.0005
 
-    force = volume["Fty"] * 2 * 0.03
-    flux = flux_density["Br"]
+    volume = sim.volume_integrals([i_core_area]) # volume integral of the i-core
+    local_values = sim.local_values(x_airgap, y_airgap) # local field values in the airgap
+
+    force = volume["Fty"] * 2 * 0.03 # force on i-core
+    flux = local_values["Br"] # flux in the  airgap
 
     f.write(str(current) + "," + str(force) + "," + str(flux)+ "\n")
 
