@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.21)  7 SEP 2020 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.21)  7 SEP 2020 17:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -403,27 +403,66 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <../assets/assignment_1_geometry.png, id=1, 485.3501pt x 585.07947pt>
 File: ../assets/assignment_1_geometry.png Graphic file (type png)
 <use ../assets/assignment_1_geometry.png>
-Package pdftex.def Info: ../assets/assignment_1_geometry.png  used on input line 49.
+Package pdftex.def Info: ../assets/assignment_1_geometry.png  used on input line 51.
 (pdftex.def)             Requested size: 176.39923pt x 212.64607pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 50.
+(Font)              <8> on input line 52.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 50.
+(Font)              <6> on input line 52.
 <../assets/assignment_1_mesh.png, id=2, 671.73064pt x 710.39873pt>
 File: ../assets/assignment_1_mesh.png Graphic file (type png)
 <use ../assets/assignment_1_mesh.png>
-Package pdftex.def Info: ../assets/assignment_1_mesh.png  used on input line 55.
+Package pdftex.def Info: ../assets/assignment_1_mesh.png  used on input line 57.
 (pdftex.def)             Requested size: 176.39923pt x 186.55292pt.
 <../assets/assignment_1_simulation.png, id=3, 461.76726pt x 463.60435pt>
 File: ../assets/assignment_1_simulation.png Graphic file (type png)
 <use ../assets/assignment_1_simulation.png>
-Package pdftex.def Info: ../assets/assignment_1_simulation.png  used on input line 61.
+Package pdftex.def Info: ../assets/assignment_1_simulation.png  used on input line 63.
 (pdftex.def)             Requested size: 176.39923pt x 177.09818pt.
 <../assets/assignment_1_plot.pdf, id=4, 642.4pt x 481.8pt>
 File: ../assets/assignment_1_plot.pdf Graphic file (type pdf)
 <use ../assets/assignment_1_plot.pdf>
-Package pdftex.def Info: ../assets/assignment_1_plot.pdf  used on input line 67.
+Package pdftex.def Info: ../assets/assignment_1_plot.pdf  used on input line 69.
 (pdftex.def)             Requested size: 252.0pt x 188.99663pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <../assets/assignment_1_geometry.png (PNG copy)> <../assets/assignment_1_mesh.png (PNG copy)>]
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 79.
+
+
+Underfull \vbox (badness 6016) has occurred while \output is active []
+
+<../assets/assignment_2_geometry.png, id=20, 562.18452pt x 667.34425pt>
+File: ../assets/assignment_2_geometry.png Graphic file (type png)
+<use ../assets/assignment_2_geometry.png>
+Package pdftex.def Info: ../assets/assignment_2_geometry.png  used on input line 101.
+(pdftex.def)             Requested size: 176.39923pt x 209.38974pt.
+<../assets/assignment_2_mesh.png, id=21, 597.17842pt x 701.94159pt>
+File: ../assets/assignment_2_mesh.png Graphic file (type png)
+<use ../assets/assignment_2_mesh.png>
+Package pdftex.def Info: ../assets/assignment_2_mesh.png  used on input line 107.
+(pdftex.def)             Requested size: 176.39923pt x 207.33875pt.
+
+Underfull \vbox (badness 2173) has occurred while \output is active []
+
+ [2 <../assets/assignment_1_simulation.png (PNG copy)> <../assets/assignment_1_plot.pdf> <../assets/assignment_2_geometry.png (PNG copy)>]
+<../assets/assignment_2_simulation.png, id=39, 459.48505pt x 462.0667pt>
+File: ../assets/assignment_2_simulation.png Graphic file (type png)
+<use ../assets/assignment_2_simulation.png>
+Package pdftex.def Info: ../assets/assignment_2_simulation.png  used on input line 113.
+(pdftex.def)             Requested size: 176.39923pt x 177.3921pt.
+<../assets/assignment_2_plot.pdf, id=40, 642.4pt x 481.8pt>
+File: ../assets/assignment_2_plot.pdf Graphic file (type pdf)
+<use ../assets/assignment_2_plot.pdf>
+Package pdftex.def Info: ../assets/assignment_2_plot.pdf  used on input line 119.
+(pdftex.def)             Requested size: 252.0pt x 188.99663pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 ** Conference Paper **
@@ -436,25 +475,20 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
- <../assets/assignment_1_geometry.png (PNG copy)> <../assets/assignment_1_mesh.png (PNG copy)>] [2
-
- <../assets/assignment_1_simulation.png (PNG copy)> <../assets/assignment_1_plot.pdf>] (./Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.aux) ) 
+[3 <../assets/assignment_2_mesh.png (PNG copy)> <../assets/assignment_2_simulation.png (PNG copy)> <../assets/assignment_2_plot.pdf>] (./Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.aux) ) 
 Here is how much of TeX's memory you used:
- 6660 strings out of 483130
- 99200 string characters out of 5963883
- 375566 words of memory out of 5000000
- 21530 multiletter control sequences out of 15000+600000
+ 6691 strings out of 483130
+ 100210 string characters out of 5963883
+ 376614 words of memory out of 5000000
+ 21557 multiletter control sequences out of 15000+600000
  723417 words of font info for 132 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 32i,8n,44p,546b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb>
-Output written on Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.pdf (2 pages, 310060 bytes).
+ 32i,8n,44p,681b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
+Output written on Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.pdf (3 pages, 490477 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
