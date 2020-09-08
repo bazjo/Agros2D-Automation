@@ -1,7 +1,7 @@
 set datafile separator ','
 
 set key autotitle columnhead
-set key right top
+set key left top
 set xlabel 'Current [A]' # label for the X axis
 
 set ylabel 'Force [N]' # label for the Y axis

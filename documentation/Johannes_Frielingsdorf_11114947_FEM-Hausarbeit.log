@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.21)  7 SEP 2020 17:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.21)  8 SEP 2020 12:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -446,24 +446,51 @@ File: ../assets/assignment_2_mesh.png Graphic file (type png)
 <use ../assets/assignment_2_mesh.png>
 Package pdftex.def Info: ../assets/assignment_2_mesh.png  used on input line 107.
 (pdftex.def)             Requested size: 176.39923pt x 207.33875pt.
-
-Underfull \vbox (badness 2173) has occurred while \output is active []
-
- [2 <../assets/assignment_1_simulation.png (PNG copy)> <../assets/assignment_1_plot.pdf> <../assets/assignment_2_geometry.png (PNG copy)>]
-<../assets/assignment_2_simulation.png, id=39, 459.48505pt x 462.0667pt>
+<../assets/assignment_2_simulation.png, id=22, 459.48505pt x 462.0667pt>
 File: ../assets/assignment_2_simulation.png Graphic file (type png)
 <use ../assets/assignment_2_simulation.png>
 Package pdftex.def Info: ../assets/assignment_2_simulation.png  used on input line 113.
 (pdftex.def)             Requested size: 176.39923pt x 177.3921pt.
-<../assets/assignment_2_plot.pdf, id=40, 642.4pt x 481.8pt>
+<../assets/assignment_2_plot.pdf, id=23, 642.4pt x 481.8pt>
 File: ../assets/assignment_2_plot.pdf Graphic file (type pdf)
 <use ../assets/assignment_2_plot.pdf>
 Package pdftex.def Info: ../assets/assignment_2_plot.pdf  used on input line 119.
 (pdftex.def)             Requested size: 252.0pt x 188.99663pt.
-
+ [2 <../assets/assignment_1_simulation.png (PNG copy)> <../assets/assignment_1_plot.pdf> <../assets/assignment_2_geometry.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+<../assets/assignment_3_geometry.png, id=41, 618.47905pt x 676.5702pt>
+File: ../assets/assignment_3_geometry.png Graphic file (type png)
+<use ../assets/assignment_3_geometry.png>
+Package pdftex.def Info: ../assets/assignment_3_geometry.png  used on input line 139.
+(pdftex.def)             Requested size: 176.39923pt x 192.96904pt.
+<../assets/assignment_3_mesh.png, id=42, 689.98831pt x 706.55458pt>
+File: ../assets/assignment_3_mesh.png Graphic file (type png)
+<use ../assets/assignment_3_mesh.png>
+Package pdftex.def Info: ../assets/assignment_3_mesh.png  used on input line 145.
+(pdftex.def)             Requested size: 176.39923pt x 180.62723pt.
+<../assets/assignment_3_simulation.png, id=43, 464.04947pt x 468.98618pt>
+File: ../assets/assignment_3_simulation.png Graphic file (type png)
+<use ../assets/assignment_3_simulation.png>
+Package pdftex.def Info: ../assets/assignment_3_simulation.png  used on input line 151.
+(pdftex.def)             Requested size: 176.39923pt x 178.27385pt.
+<../assets/assignment_3_plot.pdf, id=44, 642.4pt x 481.8pt>
+File: ../assets/assignment_3_plot.pdf Graphic file (type pdf)
+<use ../assets/assignment_3_plot.pdf>
+Package pdftex.def Info: ../assets/assignment_3_plot.pdf  used on input line 157.
+(pdftex.def)             Requested size: 252.0pt x 188.99663pt.
+ [3 <../assets/assignment_2_mesh.png (PNG copy)> <../assets/assignment_2_simulation.png (PNG copy)> <../assets/assignment_2_plot.pdf> <../assets/assignment_3_geometry.png (PNG copy)>]
+<../assets/assignment_3_plot_swapped_polarity.pdf, id=58, 642.4pt x 481.8pt>
+File: ../assets/assignment_3_plot_swapped_polarity.pdf Graphic file (type pdf)
+<use ../assets/assignment_3_plot_swapped_polarity.pdf>
+Package pdftex.def Info: ../assets/assignment_3_plot_swapped_polarity.pdf  used on input line 173.
+(pdftex.def)             Requested size: 252.0pt x 188.99663pt.
+<../assets/assignment_3_plot_zero.pdf, id=59, 642.4pt x 481.8pt>
+File: ../assets/assignment_3_plot_zero.pdf Graphic file (type pdf)
+<use ../assets/assignment_3_plot_zero.pdf>
+Package pdftex.def Info: ../assets/assignment_3_plot_zero.pdf  used on input line 179.
+(pdftex.def)             Requested size: 252.0pt x 188.99663pt.
+ [4 <../assets/assignment_3_mesh.png (PNG copy)> <../assets/assignment_3_simulation.png (PNG copy)> <../assets/assignment_3_plot.pdf>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -475,20 +502,22 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3 <../assets/assignment_2_mesh.png (PNG copy)> <../assets/assignment_2_simulation.png (PNG copy)> <../assets/assignment_2_plot.pdf>] (./Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.aux) ) 
+[5
+
+ <../assets/assignment_3_plot_swapped_polarity.pdf> <../assets/assignment_3_plot_zero.pdf>] (./Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.aux) ) 
 Here is how much of TeX's memory you used:
- 6691 strings out of 483130
- 100210 string characters out of 5963883
- 376614 words of memory out of 5000000
- 21557 multiletter control sequences out of 15000+600000
+ 6735 strings out of 483130
+ 101825 string characters out of 5963883
+ 376667 words of memory out of 5000000
+ 21595 multiletter control sequences out of 15000+600000
  723417 words of font info for 132 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 32i,8n,44p,681b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,8n,44p,1107b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.pdf (3 pages, 490477 bytes).
+Output written on Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.pdf (5 pages, 658319 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 138 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1599491977 "Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.tex" "Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.pdf" "Johannes_Frielingsdorf_11114947_FEM-Hausarbeit" 1599491977
+["pdflatex"] 1599562241 "Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.tex" "Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.pdf" "Johannes_Frielingsdorf_11114947_FEM-Hausarbeit" 1599562241
   "../assets/assignment_1_geometry.png" 1598546311 9726 f591f90daffebf4f2203fb9ed816604b ""
   "../assets/assignment_1_mesh.png" 1599045362 113388 4b3196eb8dd5e3f95267c02c5e5f7eb2 ""
   "../assets/assignment_1_plot.pdf" 1599485933 8312 eeda9d03ab2c65d4653db09a811c86d2 ""
@@ -8,6 +8,12 @@
   "../assets/assignment_2_mesh.png" 1599484899 103788 93b78efc8182e8b59c8e47643c312671 ""
   "../assets/assignment_2_plot.pdf" 1599490185 8291 2d20baf7476db5f6b759a1a951667161 ""
   "../assets/assignment_2_simulation.png" 1598546005 22216 a58f880c4494bb41f0190830360f66b7 ""
+  "../assets/assignment_3_geometry.png" 1599497488 11567 3a8a63d00d1a6f2ae54e2d061b79ad87 ""
+  "../assets/assignment_3_mesh.png" 1599497535 105954 1cd81422be7aca9cc03a179489c00b05 ""
+  "../assets/assignment_3_plot.pdf" 1599497175 8099 9f9b179d4605eb86f858a8c968659afc ""
+  "../assets/assignment_3_plot_swapped_polarity.pdf" 1599498134 8100 e4e848bca37f093396ac2ea2af4adb71 ""
+  "../assets/assignment_3_plot_zero.pdf" 1599562082 8320 35297b9162fbf7cd32379f824b06824e ""
+  "../assets/assignment_3_simulation.png" 1599497595 23007 e7af9e17eedd8c33d6a62023f2ea05fc ""
   "/etc/texmf/web2c/texmf.cnf" 1597998661 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -134,9 +140,9 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1597998668 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1597998674 5714630 2067055f90bb2d8321e06508060b7e46 ""
   "IEEEtran.cls" 1440654524 288304 b67b6fc6c2abb39f9b461923f5199343 ""
-  "Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.aux" 1599491977 2231 2c075c3b8b66c00edc8ff1efdf16cc0a "pdflatex"
-  "Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.tex" 1599491977 8292 3a28582e3b97408a106df28e9bc222a9 ""
+  "Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.aux" 1599562241 3676 09ce17443fa86fbef8858b24423f2684 "pdflatex"
+  "Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.tex" 1599562240 14659 bbc8188f8c42f3bb68699a60e348f2e1 ""
   (generated)
-  "Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.log"
   "Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.pdf"
   "Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.aux"
+  "Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.log"

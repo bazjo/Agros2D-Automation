@@ -97,25 +97,25 @@ Für die zweite Aufgabenstellung wird der Strom in der Spule zu Null gesetzt und
 
 Dargestellt ist beispeilhaft eine Dicke d von $11\ mm$. Abb.~\ref{assignment_2_geometry} zeigt die Simulationsgeometrie, Abb.~\ref{assignment_2_mesh} das generierte Netz und Abb.~\ref{assignment_2_simulation} die resultierende Flussdichteverteilung. Die Netzknotenanzahl betrug in diesem Fall 22162; die Anzahl der Polygone 37168.
 
-\begin{figure}[H]
+\begin{figure}
 \centerline{\includegraphics[width=0.7\columnwidth]{../assets/assignment_2_geometry.png}}
 \caption{Simulationsgeometrie in der zweiten Aufgabenstellung; $d = 11\ mm$.}
 \label{assignment_2_geometry}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}
 \centerline{\includegraphics[width=0.7\columnwidth]{../assets/assignment_2_mesh.png}}
 \caption{Simulationsvermaschung in der zweiten Aufgabenstellung; $d = 11\ mm$.}
 \label{assignment_2_mesh}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}
 \centerline{\includegraphics[width=0.7\columnwidth]{../assets/assignment_2_simulation.png}}
 \caption{Flussdichteverteilung in der zweiten Aufgabenstellung; $d = 11\ mm$.}
 \label{assignment_2_simulation}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}
 \centerline{\includegraphics[width=\columnwidth]{../assets/assignment_2_plot.pdf}}
 \caption{Kraft auf das I-Joch und Flussdichte im Luftspalt gegenüber Dicke des Permanentmagneten.}
 \label{assignment_2_plot}
@@ -128,5 +128,63 @@ Da in diesem Projekt nicht mit Magnetisierungskurven und auch sonst mit leicht a
 Bei Betrachtung des Verlaufs der Kraft auf das I-Joch und Flussdichte im Luftspalt für Dicken von $1\ mm$ bis $11\ mm$ in Abb.~\ref{assignment_2_plot} zeigt sich jedoch qualitativ das gleiche Verhalten wie in Projekt 2; auch hier strebt die Flussdichte und nach Gl.~(\ref{eq_electromagnetic_force}) die Kraft asymptotisch gegen ein Maximum.
 
 Dieses Verhalten ergibt sich aus der Hysterese des ferromagnetischen Material des Permanentmagneten, dass durch die Angabe der Remanenzflussdichte in der Simulation angegeben wurde. Hierdurch bedingt gerät das Material in eine magnetische Sättigung, in der eine Erhöhung der magnetischen Feldstärke H nicht mehr linear eine Erhöhung der magnetischen Flussdichte bewirkt.
+
+\section{Aufgabenstellung 3}
+
+In der dritten Aufgabenstellung werden die in den vorheringen beiden Aufgabenstellungen betrachteten Probleme kombiniert, in dem die Dicke des permanentmagnetischen Materials zu 3 mm gesetzt wird und die Spule mit einem variablen Strom von $I = -60 .. 60\ A$ beaufschlagt wird.
+
+Dargestellt ist beispeilhaft ein Strom von $60\ A$. Abb.~\ref{assignment_3_geometry} zeigt die Simulationsgeometrie, Abb.~\ref{assignment_3_mesh} das generierte Netz und Abb.~\ref{assignment_3_simulation} die resultierende Flussdichteverteilung. Die Netzknotenanzahl betrug in diesem Fall 20936; die Anzahl der Polygone 35120.
+
+\begin{figure}
+\centerline{\includegraphics[width=0.7\columnwidth]{../assets/assignment_3_geometry.png}}
+\caption{Simulationsgeometrie in der dritten Aufgabenstellung; $I = 60\ A$.}
+\label{assignment_3_geometry}
+\end{figure}
+
+\begin{figure}
+\centerline{\includegraphics[width=0.7\columnwidth]{../assets/assignment_3_mesh.png}}
+\caption{Simulationsvermaschung in der dritten Aufgabenstellung; $I = 60\ A$..}
+\label{assignment_3_mesh}
+\end{figure}
+
+\begin{figure}
+\centerline{\includegraphics[width=0.7\columnwidth]{../assets/assignment_3_simulation.png}}
+\caption{Flussdichteverteilung in der dritten Aufgabenstellung; $I = 60\ A$..}
+\label{assignment_3_simulation}
+\end{figure}
+
+\begin{figure}
+\centerline{\includegraphics[width=\columnwidth]{../assets/assignment_3_plot.pdf}}
+\caption{Kraft auf das I-Joch und Flussdichte im Luftspalt gegenüber Stromvorgabe.}
+\label{assignment_3_plot}
+\end{figure}
+
+Bevor die beobachteten Simulationsergebnisse diskutiert werden, sollen noch einmal die Ergebnisse aus Aufgabenstellung 1 und 2 rekapituliert und eine Hypothese für das Verhalten in dieser Simulation formuliert werden.
+
+In Aufgabenstellung 1 wurde beobachtet, dass sich für größere Ströme im betrachteten und zwischen den Simulationen nicht veränderten, nicht-invertierten Drehsinn der Spule (positiver Strom oben, negativer unten) eine linear größer werdende Feldstärke einstellt, die nach Gl.~(\ref{eq_electromagnetic_force}) eine quadratisch größer werdende Kraft zur Folge hat. Da Gleichung Gl.~(\ref{eq_electromagnetic_force}) in den betrachteten Fällen immer gilt, und die Anziehungskraft der Flussdichte direkt zuordnet, soll in der weiteren Betrachtung eine Reduktion auf die Betrachtung der Flussdichte erfolgen. Bei einem Strom von $0\ A$ herrscht eine Flussdichte von $0\ T$; bei einem Strom von $60\ A$ eine Flussdichte von $1,72\ T$.
+
+In Aufgabenstellung 2 konnte beobachtet werden, dass für größere Dicken des permanentmagnetischen Materials eine Sättigung der aufgebrachten magnetischen Flussdichte eintritt. Einer Dicke des Permanentmagneten von $3\ mm$ konnte hier eine Flussdichte von $0,91\ T$ ermittelt werden.
+
+Werden nun beide Effekte überlagert betrachtet, so kann vermutet werden, dass sich die beiden Flussdichten addieren. Da als Ergebnissgröße der Simulation nur der Betrag des resultierenden B-Feld-Vektors betrachtet wird, kann nicht direkt geschlossen werden, wie die Überlagerung der beiden Felder im Lufspalt vektoriell erfolgt. Eine weitere Schlussfolgerung ist, dass ein komplett "linearer" Verlauf des B-Feldes nicht vorliegen kann, da ein solcher durch die Betragsbildung in eine Betragsfunktion umgewandelt werden würde. Wäre in Aufgabenstellung 1 eine Simulation auch für negative Ströme erfolgt, so hätte sich gezeigt, dass das resultierende Flussdichte eine Betragsfunktion um $0\ A$ ergeben hätte. Ein Überlagern mit einem anderen konstanten Feld führt nun zu einer Linearverschiebung des B-Felds, die sich nach der Betragsbildung in einer Verschiebung der "Spitze" der Betragsfunktion äußert. Es kann somit also Beriche geben, in denen eine Erhöhung des Stroms zu einer Verringerung der Flussdichte führt.
+
+Das Simulationsergebnis in Abb.~\ref{assignment_3_plot} bestätigt diese Hypothese. Es zeigt sich, dass die Flussdichte für größer werdende Ströme linear abfällt. Für einen Strom von $0\ A$ stellt sich ein erwartetes Magnetfeld von $0,91\ T$ ein. Bei einem Strom von $60\ A$ beträgt das Magnetfeld $xxx\ T$, was nahe legt, dass die Überlagerung nicht antiparallel erfolgt.
+
+\begin{figure}
+\centerline{\includegraphics[width=\columnwidth]{../assets/assignment_3_plot_swapped_polarity.pdf}}
+\caption{Kraft auf das I-Joch und Flussdichte im Luftspalt bei invertiertem Spulendrehsinn.}
+\label{assignment_3_plot_swapped_polarity}
+\end{figure}
+
+\begin{figure}
+\centerline{\includegraphics[width=\columnwidth]{../assets/assignment_3_plot_zero.pdf}}
+\caption{Kraft auf das I-Joch und Flussdichte im Luftspalt in der Nähe des Nullpunktes der Flussdichte.}
+\label{assignment_3_plot_zero}
+\end{figure}
+
+Wird der Drehsinn der Spule invertiert, überlagern sich die B-Felder im betrachteten Bereich des Stromes konstruktiv additiv, da das Minimum der Flussdichte nun in die andere Richtung verschoben ist (Abb.~\ref{assignment_3_plot_swapped_polarity}).
+
+Der Punkt, an dem die Flussdichte ihr Minimum hat, soll genauer untersucht werden. Dazu wird (mit normalem Drehsinn der Spule) der Strombereich von $90 - 130\ A$ simuliert (Abb.~\ref{assignment_3_plot_zero}). Dieser Punkt wird bei ca. $111,5\ A$ erreicht. Auffällig ist jedoch, dass in der Nähe dieses Punktes Gl.~(\ref{eq_electromagnetic_force}) verletzt wird. Nach Ihrer Definition verwunder dies jedoch nicht, da dort zur Kraftberechnung ein homogenes magnetisches Feld über die wirksame Fläche angenommen wird. Bedingt durch Randeffekte ist dies eine Vereinfachung, die in diesem Grenzfall versagt.
+
+Abschließend soll noch einmal auf die in Aufgabenstellung 2 getroffenen Aussagen zu Sättigungseffekten des permanentmagnetischen Materials eigegangen werden, die ja offenbar in dieser Aufgabestellung nicht eintreten. Dies lässt sich darauf zurückführen, dass in der Simulation lediglich eine Remanenzflussdichte angegeben wurde, also die maximale Flussdichte, die das Material als Permanentmagnet aufbringen kann. Dies ist eine unvollstängige Beschreibung, die die Sättigungseffekte durch extern aufgebrachte Felder außer acht lässt. Für eine Korrekte Betrachtung hätte eine Magnetisierungskennlinie wie in Projekt 2 mit angegeben werden müssen. Die simulierte Ergebnisse würden sich also für ein echt eingebrachtes ferromagnetisches Material nicht wie in dieser Simulation einstellen.
 
 \end{document}
