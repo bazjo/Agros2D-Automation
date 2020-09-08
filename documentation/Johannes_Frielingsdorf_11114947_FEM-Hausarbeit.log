@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.21)  8 SEP 2020 12:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.21)  8 SEP 2020 12:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -512,9 +512,9 @@ Here is how much of TeX's memory you used:
  21595 multiletter control sequences out of 15000+600000
  723417 words of font info for 132 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 32i,8n,44p,1107b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,8n,44p,1108b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.pdf (5 pages, 658319 bytes).
+Output written on Johannes_Frielingsdorf_11114947_FEM-Hausarbeit.pdf (5 pages, 658047 bytes).
 PDF statistics:
  138 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream
